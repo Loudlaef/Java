@@ -1,16 +1,13 @@
 /**
  * HelloWithVSCode
  */
-public class HelloWithVSCode {
+class Operator2 {
 
     public static void main(String[] args) {
-          String str1 = "Hello World";
-          String str2 = "Java";
-          String str3 = "Nice to meet you!";
-          String str4 = "한글 바이!" ;
-          System.out.println(str1);
-          System.out.println(str2);
-          System.out.println(str3);
-          System.out.println(str4);
+          int a = 10;
+          a += 2;
+          System.out.println(a);
+          a %= 5;
+          System.out.println(a);
     }
 }
